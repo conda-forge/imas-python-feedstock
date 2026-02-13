@@ -1,5 +1,5 @@
 context:
-  version: "2.0.1"
+  version: "2.2.0"
   name: "IMAS-Python"
   user: "iterorganization"
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com//${{ user }}/${{ name }}/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 669b1107477c8f2bc277c1a46fe0047dfba127632e86fdef5496d77083717624
+  sha256: 25d28f78f3f0d23a037f2fd91909c278d20670ac4834c3ec39a37ebec6f5465a
 
 build:
   number: 0
@@ -82,5 +82,5 @@ about:
 
 extra:
   recipe-maintainers:
-   - munechika-koyo
-   - SimonPinches
+    - munechika-koyo
+    - SimonPinches
