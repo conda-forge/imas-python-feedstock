@@ -52,7 +52,9 @@ tests:
       python_version: ${{ python_min }}.*
       pip_check: true
   - script:
-      - python -m pytest imas/test
+      env:
+        USER: $USERNAME
+      content: python -m pytest imas/test
     files:
       source:
         - imas/test
