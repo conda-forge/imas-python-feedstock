@@ -1,5 +1,5 @@
 context:
-  version: "2.2.0"
+  version: "2.3.0"
   name: "IMAS-Python"
   user: "iterorganization"
 
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com//${{ user }}/${{ name }}/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 25d28f78f3f0d23a037f2fd91909c278d20670ac4834c3ec39a37ebec6f5465a
+  sha256: 478a3b2b79fd4e90cd6637d618fb756307049d9d0440ac6a21345482f83d461a
 
 build:
   number: 0
